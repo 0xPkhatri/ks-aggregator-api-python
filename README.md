@@ -1,7 +1,3 @@
-# ks-aggregator-api-demo-python
-
-Sample implementation of KyberSwap Aggregator APIs for python environment
-
 # KyberSwap Aggregator API Demo Python
 
 This repository serves as a guide for developers looking to conduct swaps via the KyberSwap Aggregator APIs in a python environment. For simplicity, the examples are implemented purely in Python.
@@ -26,10 +22,12 @@ To run the examples:
 1. Clone this repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up environment variables in `.env` file:
+
    ```
    PRIVATE_KEY=your_private_key          # Your wallet's private key
    RPC_URL=your_rpc_url                  # URL of your preferred EVM RPC node
    ```
+
 4. Set up the [web3.py Account](https://web3py.readthedocs.io/en/stable/web3.eth.account.html#accounts) under `/src/libs/account.py`
 5. Run the example: `python src/index.py`
 
