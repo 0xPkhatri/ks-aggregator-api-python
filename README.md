@@ -1,6 +1,6 @@
 # KyberSwap Aggregator API Demo Python
 
-This repository serves as a guide for developers looking to conduct swaps via the KyberSwap Aggregator APIs in a python environment. For simplicity, the examples are implemented purely in Python.
+This repository serves as a guide for developers looking to conduct swaps via the KyberSwap Aggregator APIs in a python environment. For simplicity, the examples are implemented in Python.
 
 For more performant route querying and execution, please refer to the `[V1]` implementation which includes the following operations:
 
