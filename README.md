@@ -2,7 +2,7 @@
 
 This repository serves as a guide for developers looking to conduct swaps via the KyberSwap Aggregator APIs in a python environment. For simplicity, the examples are implemented in Python.
 
-For more performant route querying and execution, please refer to the `[V1]` implementation which includes the following operations:
+For more performant route querying and execution, please refer to the `[V1]` implementation which includes the following operations :
 
 1. Query Swap Route (`getSwapRouteV1()`) - Fetches optimal swap routes based on input parameters
 2. Encode Preferred Swap Route (`postSwapRouteV1()`) - Prepares the selected route for execution
